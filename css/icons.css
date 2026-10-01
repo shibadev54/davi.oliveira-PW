@@ -1,0 +1,10 @@
+.svg,
+.svg-light,
+.svg-dark {
+  width: 20px;
+  height: 20px;
+}
+
+.svg-dark {
+  filter: brightness(0) invert(1);
+}

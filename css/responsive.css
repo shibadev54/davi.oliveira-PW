@@ -1,0 +1,35 @@
+@media (max-width: 720px) {
+  .page-grid {
+    grid-template-columns: 1fr;
+
+    grid-template-areas:
+      "hero"
+      "text1"
+      "text2"
+      "stats"
+      "cta";
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .card__hero-img {
+    height: 220px;
+  }
+
+  .info-bar {
+    flex-direction: column;
+    gap: 0.5rem;
+
+    text-align: center;
+  }
+
+  .navbar {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .navbar__logo {
+    height: 44px;
+  }
+}

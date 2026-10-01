@@ -1,0 +1,37 @@
+.card--cta {
+  grid-area: cta;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: linear-gradient(
+    135deg,
+    var(--clr-footer) 0%,
+    var(--clr-accent) 100%
+  );
+
+  border: 0;
+}
+
+.card--cta:hover {
+  transform: none;
+}
+
+.card__cta-title {
+  color: #fff;
+
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card__cta-text {
+  max-width: 380px;
+
+  color: rgba(255, 255, 255, 0.82);
+
+  font-size: 0.93rem;
+}
