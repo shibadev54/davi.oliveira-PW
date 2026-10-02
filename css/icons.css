@@ -1,6 +1,4 @@
-.svg,
-.svg-light,
-.svg-dark {
+.svg,.svg-light,.svg-dark{
   width: 20px;
   height: 20px;
 }
